@@ -1,0 +1,76 @@
+{
+  "user_data": [
+    {
+      "ID": "1",
+      "Name": "Test_Harshikha",
+      "Role": "abc",
+      "Telephone": "9080818080",
+      "E-mail": "har@gmail.com",
+      "Password": "",
+      "USername": "Har22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_alpha",
+      "Role": "def",
+      "Telephone": "9080208080",
+      "E-mail": "alpha@gmail.com",
+      "Password": "",
+      "USername": "alpha22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_beta",
+      "Role": "ghi",
+      "Telephone": "9080308080",
+      "E-mail": "beta@gmail.com",
+      "Password": "",
+      "USername": "beta22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_gamma",
+      "Role": "klm",
+      "Telephone": "9084808080",
+      "E-mail": "gamma@gmail.com",
+      "Password": "",
+      "USername": "gamma22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_delta",
+      "Role": "nop",
+      "Telephone": "9080508080",
+      "E-mail": "del@gmail.com",
+      "Password": "",
+      "USername": "delta22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_sigma",
+      "Role": "qrs",
+      "Telephone": "90806008080",
+      "E-mail": "sigma@gmail.com",
+      "Password": "",
+      "USername": "sigma22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_cosine",
+      "Role": "tuv",
+      "Telephone": "9080708080",
+      "E-mail": "cosine@gmail.com",
+      "Password": "",
+      "USername": "cosine22"
+    },
+    {
+      "ID": "1",
+      "Name": "Test_phi",
+      "Role": "xyz",
+      "Telephone": "9080808080",
+      "E-mail": "phi@gmail.com",
+      "Password": "",
+      "USername": "phi22"
+    }
+  ]
+}
