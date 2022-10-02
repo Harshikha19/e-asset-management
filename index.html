@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+ 
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</head>
+    <title>E-asset management</title>
+    <style>
+     * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+}
+.img-slider .slider-container {
+    position: absolute;
+    width: 300%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 26s infinite;
+}
+.img-slider .slider-container .slide {
+    position: relative;
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+.img-slider .slider-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar of the website -->
+    <nav class="navbar navbar-dark bg-dark justify-content-between" >
+  <a class="navbar-brand">E-Asset Management</a>
+  <form class="form-inline" style="display:flex">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+<!-- Carousal design of the website  -->
+<Section class="img-slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img src="images/carousal.jpg" class="d-block w-100 opacity-50"alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="color:black;">E-Asset Management</h1>
+        <p style="color:black;"><b>A smarter way to manage your assets</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item ">
+      <img src="images/carousal7.jpg" class="d-block w-100 opacity-50"alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="color:black;">E-Asset Management</h1>
+        <p style="color:black;"><b>A smarter way to manage your assets</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="images/carousal6.jpg" class="d-block w-100 opacity-50"alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="color:black;">E-Asset Management</h1>
+        <p style="color:black;"><b>A smarter way to manage your assets</b></p>
+      </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </Section>
+
+  <!-- Login and registration form  and list of assets-->
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <h2 class="fas fa-file fa-2xl"><b>  List of Assets</b></h2> 
+          </h3>
+        </div>
+
+        <div class="col-md-6 text-center">
+           <h2 class="fas fa-users fa-2xl"><b>  Login / Register</b></h2> 
+          </h3>
+        </div>
+      </div>
+    </div>
+</div>
+<script>
+  
+</script>
+  </body>
+</html>
